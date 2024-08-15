@@ -97,7 +97,7 @@ export default function Footer() {
       </div>
 
       <div className="w-full border-t border-[#484b50] outline-none justify-center items-center mt-8 flex flex-col md:flex-row md:gap-2 px-2">
-        <div className="container flex flex-col md:flex-row justify-between text-center text-white my-2">
+        <div className="container flex flex-col md:flex-row justify-between text-center text-white my-2 px-2">
           <div>&copy; {new Date().getFullYear()} SDMetal.</div>
           <div>{contactInfo.rights}</div>
         </div>
