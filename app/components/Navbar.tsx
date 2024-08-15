@@ -27,7 +27,7 @@ export default function Navbar() {
 
   const renderProductsDropdown = () => {
     return (
-      <div className="md:absolute mt-4 min-w-[26rem] bg-white md:shadow-lg transition-all duration-300">
+      <div className="md:absolute mt-4 min-w-[26rem] bg-white md:shadow-lg transition-all duration-300 z-[1000]">
         <div className="flex flex-col md:flex-row">
           {navigation.products.categories.map((category) => (
             <div key={category.title} className="md:p-4">
@@ -54,7 +54,7 @@ export default function Navbar() {
 
   const renderCompanyDropdown = () => {
     return (
-      <div className="md:absolute mt-4 min-w-[15rem] text-black bg-white md:shadow-lg transition-all duration-300">
+      <div className="md:absolute mt-4 min-w-[15rem] text-black bg-white md:shadow-lg transition-all duration-300 z-[1000]">
         <div className="md:p-4">
           <ul>
             {navigation.company.categories.map((category) => (
