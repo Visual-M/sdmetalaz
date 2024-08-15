@@ -28,9 +28,21 @@ export default function About() {
                 <h2 className="text-xl font-semibold">
                   {contactInfo.telephone}
                 </h2>
-                <p className="text-xl flex gap-2 items-center">
-                  {contactInfo.phone} <FaWhatsapp style={{ color: "green" }} />
-                </p>
+                <div className="flex gap-4">
+                  <a
+                    target="_blank"
+                    href={`tel:${contactInfo.phone}`}
+                    className="text-xl flex gap-2 items-center"
+                  >
+                    {contactInfo.phone}
+                  </a>
+                  <a
+                    target="_blank"
+                    href={`https://wa.me/${contactInfo.phone}`}
+                  >
+                    <FaWhatsapp className="text-green-500 text-[20px] md:text-[28px]" />
+                  </a>
+                </div>
               </div>
               <div>
                 <h2 className="text-xl font-semibold">{contactInfo.mail}:</h2>
@@ -40,21 +52,63 @@ export default function About() {
             <div className="flex flex-col gap-4">
               <div>
                 <h2 className="text-xl font-semibold">
-                  {contactInfo.location}:
+                  {contactInfo.sellingMetal}:
                 </h2>
-                <p className="text-xl">{contactInfo.address}</p>
+                <div className="flex gap-4">
+                  <a
+                    target="_blank"
+                    href={`tel:${contactInfo.sellingMetalPhone}`}
+                    className="text-xl flex gap-2 items-center"
+                  >
+                    {contactInfo.sellingMetalPhone}
+                  </a>
+                  <a
+                    target="_blank"
+                    href={`https://wa.me/${contactInfo.sellingMetalPhone}`}
+                  >
+                    <FaWhatsapp className="text-green-500 text-[20px] md:text-[28px]" />
+                  </a>
+                </div>
               </div>
               <div>
                 <h2 className="text-xl font-semibold">
-                  {contactInfo.location}:
+                  {contactInfo.alcipanSellings}:
                 </h2>
-                <p className="text-xl">{contactInfo.address}</p>
+                <div className="flex gap-4">
+                  <a
+                    target="_blank"
+                    href={`tel:${contactInfo.alcipanSellingsPhone}`}
+                    className="text-xl flex gap-2 items-center"
+                  >
+                    {contactInfo.alcipanSellingsPhone}
+                  </a>
+                  <a
+                    target="_blank"
+                    href={`https://wa.me/${contactInfo.alcipanSellingsPhone}`}
+                  >
+                    <FaWhatsapp className="text-green-500 text-[20px] md:text-[28px]" />
+                  </a>
+                </div>
               </div>
               <div>
                 <h2 className="text-xl font-semibold">
-                  {contactInfo.location}:
+                  {contactInfo.corpSellings}:
                 </h2>
-                <p className="text-xl">{contactInfo.address}</p>
+                <div className="flex gap-4">
+                  <a
+                    target="_blank"
+                    href={`tel:${contactInfo.corpSellingsPhone}`}
+                    className="text-xl flex gap-2 items-center"
+                  >
+                    {contactInfo.corpSellingsPhone}
+                  </a>
+                  <a
+                    target="_blank"
+                    href={`https://wa.me/${contactInfo.sellingMetalPhone}`}
+                  >
+                    <FaWhatsapp className="text-green-500 text-[20px] md:text-[28px]" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

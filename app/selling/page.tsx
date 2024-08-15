@@ -1,7 +1,7 @@
 import HeaderTextAndPicture from "@/app/components/headerTextAndPicture";
 import { sellingMetalPage } from "@/constants/data";
 import Image from "next/image";
-import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function SellingPage() {
   return (
@@ -12,25 +12,42 @@ export default function SellingPage() {
         image={sellingMetalPage.image}
       />
 
-      <div className="container py-8 md:p-8 mt-8">
+      <div className="container p-0 py-8 md:p-8 mt-8">
         <div className="flex flex-col gap-12 justify-between">
           <h3 className="font-semibold text-3xl text-center">
             {sellingMetalPage.workers}
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-12">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-12 px-2">
             {sellingMetalPage.coWorkers.map((coWorker) => (
-              <div key={coWorker.id} className="flex flex-col items-center gap-2">
+              <div
+                key={coWorker.id}
+                className="flex flex-col items-center gap-1 md:gap-2"
+              >
                 <Image
                   src={coWorker.image}
                   alt={coWorker.name}
                   width={300}
                   height={400}
                 />
-                <span className="text-2xl font-semibold">{coWorker.name}</span>
-                <a href={`tel:${coWorker.phone}`} className="text-xl ">
-                  {coWorker.phone}
-                </a>
-                <a href={`mailto:${coWorker.email}`} className="text-xl ">
+                <span className="text-l md:text-2xl font-semibold">
+                  {coWorker.name}
+                </span>
+                <div className="flex gap-4">
+                  <a
+                    target="_blank"
+                    href={`tel:${coWorker.phone}`}
+                    className="text-l md:text-xl flex gap-1 md:gap-2 items-center"
+                  >
+                    {coWorker.phone}
+                  </a>
+                  <a href={`https://wa.me/${coWorker.phone}`} target="_blank">
+                    <FaWhatsapp className="text-green-500 text-[20px] md:text-[28px]" />
+                  </a>
+                </div>
+                <a
+                  href={`mailto:${coWorker.email}`}
+                  className="text-sm md:text-xl"
+                >
                   {coWorker.email}
                 </a>
               </div>

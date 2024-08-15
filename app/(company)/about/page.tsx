@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="w-full mx-auto p-8 m-8 flex items-center flex-col">
+    <div className="w-full mx-auto m-8 flex items-center flex-col">
       <HeaderTextAndPicture title={aboutPage.title} image={aboutPage.image} />
 
-      <div className="container py-8 md:p-8 mt-8">
+      <div className="container py-8 px-4 md:p-8 mt-8">
         <div className="flex flex-col gap-12 justify-between">
           <div className="flex flex-col md:flex-row justify-around items-center">
             <div>

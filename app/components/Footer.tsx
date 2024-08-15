@@ -5,10 +5,10 @@ import { navigation, contactInfo } from "@/constants/data";
 
 export default function Footer() {
   return (
-    <footer className="w-full mx-auto py-4 flex justify-center bg-black">
+    <footer className="w-full mx-auto pt-4 flex flex-col items-center bg-black">
       <div className="container py-8">
         <div className=" flex flex-col justify-between md:flex-row  px-4 md:px-0 text-white ">
-          <div className="flex flex-col mb-4 md:mb-0">
+          <div className="flex flex-col mb-4 md:mb-0 px-2">
             <Link href="/">
               <Image
                 src="/images/logoWhite.svg"
@@ -42,10 +42,19 @@ export default function Footer() {
                   {contactInfo.location}: {contactInfo.address}
                 </li>
                 <li className="py-1">
-                  {contactInfo.telephone}: {contactInfo.phone}
+                  <a
+                    target="_blank"
+                    href={`tel:${contactInfo.phone}`}
+                    className="text-xl flex gap-2 items-center"
+                  >
+                    {contactInfo.phone}
+                  </a>
                 </li>
                 <li className="py-1">
-                  {contactInfo.mail}: {contactInfo.email}
+                  {contactInfo.mail}:
+                  <a target="_blank" href={`mailto:${contactInfo.email}`}>
+                    {contactInfo.email}
+                  </a>
                 </li>
               </ul>
             </div>
@@ -85,8 +94,10 @@ export default function Footer() {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="text-center text-white mt-8 flex flex-col md:flex-row md:gap-2">
+      <div className="w-full border-t border-[#484b50] outline-none justify-center items-center mt-8 flex flex-col md:flex-row md:gap-2 px-2">
+        <div className="container flex flex-col md:flex-row justify-between text-center text-white my-2">
           <div>&copy; {new Date().getFullYear()} SDMetal.</div>
           <div>{contactInfo.rights}</div>
         </div>
