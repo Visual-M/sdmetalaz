@@ -11,18 +11,39 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleProductsDropdown = () => {
-    setIsProductsDropdownOpen(!isProductsDropdownOpen);
+    if (window.innerWidth <= 768) {
+      if (isProductsDropdownOpen) {
+        setIsProductsDropdownOpen(false);
+      } else {
+        setIsProductsDropdownOpen(true);
+        setIsCompanyDropdownOpen(false);
+      }
+    } else {
+      setIsProductsDropdownOpen((prev) => !prev);
+    }
   };
 
   const toggleCompanyDropdown = () => {
-    setIsCompanyDropdownOpen(!isCompanyDropdownOpen);
+    if (window.innerWidth <= 768) {
+      if (isCompanyDropdownOpen) {
+        setIsCompanyDropdownOpen(false);
+      } else {
+        setIsCompanyDropdownOpen(true);
+        setIsProductsDropdownOpen(false);
+      }
+    } else {
+      setIsCompanyDropdownOpen((prev) => !prev);
+    }
   };
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileMenuOpen((prev) => !prev);
   };
+
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
+    setIsProductsDropdownOpen(false);
+    setIsCompanyDropdownOpen(false);
   };
 
   const renderProductsDropdown = () => {
@@ -77,7 +98,9 @@ export default function Navbar() {
   return (
     <div className="w-full mx-auto py-4 relative">
       <Header />
-      <nav className="container mx-auto">
+      <nav
+        className={`container mx-auto ${isMobileMenuOpen ? "shadow-lg" : ""}`}
+      >
         <div className="flex justify-between items-center absolute top-8 right-4 md:hidden">
           <button onClick={toggleMobileMenu} className="p-2">
             {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -95,8 +118,10 @@ export default function Navbar() {
           </li>
           <li
             className="relative p-4 font-bold cursor-pointer"
+            onClick={toggleProductsDropdown}
             onMouseEnter={toggleProductsDropdown}
             onMouseLeave={toggleProductsDropdown}
+            style={{ zIndex: isProductsDropdownOpen ? 150 : 0 }}
           >
             <div className="flex items-center uppercase">
               {navigation.products.title}
@@ -110,8 +135,10 @@ export default function Navbar() {
           </li>
           <li
             className="relative p-4 font-bold cursor-pointer"
+            onClick={toggleCompanyDropdown}
             onMouseEnter={toggleCompanyDropdown}
             onMouseLeave={toggleCompanyDropdown}
+            style={{ zIndex: isCompanyDropdownOpen ? 150 : 0 }}
           >
             <div className="flex items-center uppercase">
               {navigation.company.title}
@@ -128,6 +155,15 @@ export default function Navbar() {
               {navigation.contacts.title}
             </Link>
           </li>
+          <div className="button p-4 mb-4 block md:hidden">
+            <Link
+              onClick={closeMobileMenu}
+              href={navigation.metalSatisi.url}
+              className="bg-black text-white px-4 py-2 rounded uppercase"
+            >
+              {navigation.metalSatisi.title}
+            </Link>
+          </div>
         </ul>
       </nav>
     </div>

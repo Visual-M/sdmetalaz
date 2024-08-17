@@ -283,7 +283,7 @@ export const navigation = {
   },
   metalSatisi: {
     title: "Metal Satisi",
-    url: "/metal-satisi",
+    url: "/selling",
   },
 };
 
