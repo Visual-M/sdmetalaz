@@ -26,8 +26,8 @@ export default function SellingPage() {
                 <Image
                   src={coWorker.image}
                   alt={coWorker.name}
-                  width={300}
-                  height={400}
+                  width={200}
+                  height={250}
                 />
                 <span className="text-l md:text-2xl font-semibold">
                   {coWorker.name}
