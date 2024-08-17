@@ -6,7 +6,7 @@ export default function Header() {
     <header className="w-full mx-auto py-4 flex justify-center">
       <div className="container flex flex-row justify-between px-4">
         <Link href="/" className="logo">
-          <Image src="/images/logo.svg" alt="Logo" width={150} height={150} />
+          <Image src="/images/logo.svg" alt="Logo" width={200} height={150} />
         </Link>
         <div className="button">
           <Link

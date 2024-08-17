@@ -13,7 +13,7 @@ export default function Footer() {
               <Image
                 src="/images/logoWhite.svg"
                 alt="Logo"
-                width={150}
+                width={200}
                 height={150}
               />
             </Link>
@@ -38,19 +38,21 @@ export default function Footer() {
             <div>
               <h3 className="uppercase px-2">{contactInfo.title}</h3>
               <ul className="mt-2 px-2">
-                <li className="py-1">
-                  {contactInfo.location}: {contactInfo.address}
+                <li className="gap-2 py-1">
+                  <span className="mr-2">{contactInfo.location}</span>:
+                  <span>{contactInfo.address}</span>
                 </li>
-                <li className="py-1">
+                <li className="flex gap-2 py-1">
+                  {contactInfo.telephone}:
                   <a
                     target="_blank"
                     href={`tel:${contactInfo.phone}`}
-                    className="text-xl flex gap-2 items-center"
+                    className="flex gap-2 items-center"
                   >
                     {contactInfo.phone}
                   </a>
                 </li>
-                <li className="py-1">
+                <li className="flex py-1 gap-2">
                   {contactInfo.mail}:
                   <a target="_blank" href={`mailto:${contactInfo.email}`}>
                     {contactInfo.email}
