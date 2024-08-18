@@ -24,11 +24,6 @@ export default function Home() {
         }}
         className="w-[100%] h-[50vh]"
       >
-        <div className="flex flex-col items-center  backdrop-blur md:p-8 md:rounded-xl">
-          <h1 className="text-white text-3xl md:text-5xl font-semibold text-center mb-4">
-            {homePage.description}
-          </h1>
-        </div>
       </div>
 
       <div className="container mx-auto py-8">
