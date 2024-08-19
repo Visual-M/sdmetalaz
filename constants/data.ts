@@ -23,7 +23,7 @@ export const steelProducts = [
         title: "Qara borular",
         standart: "ГОСТ 10704-91",
         url: "/steel/polad_borular/qara_borular",
-        image: "/images/qara_borular.png",
+        image: "/images/qara-borular.jpg",
         description:
           "Qara borular, səthində əlavə örtük olmayan, poladdan istehsal edilən borulardır. Bu borular adətən istilik sistemlərində, qaz xəttlərində və su boru kəmərlərində geniş istifadə olunur. Qara boruların səthi oksidləşmiş polad olduğu üçün bu adı almışdır. Onların yüksək möhkəmliyi və davamlılığı, müxtəlif sənaye və inşaat tətbiqlərində ideal seçimdir. Lakin, qara borular korroziyaya qarşı davamlı olmadığından, xarici mühitlərdə istifadə edilərkən əlavə qoruyucu örtük və ya rənglənmə tələb olunur. Bu boruların iqtisadi cəhətdən sərfəli olması da üstün cəhətlərindən biridir.",
       },
@@ -113,7 +113,7 @@ export const steelProducts = [
         title: "Katanka",
         standart: "ГОСТ 10704-91",
         url: "/steel/polad_mehsullari/katanka",
-        image: "/images/armatur.jpg",
+        image: "/images/katanka.jpg",
         description:
           "Katanka, metal konstruksiyalarda və mühəndislik sahələrində istifadə olunan, adətən yuvarlaq və nazik metal tel və ya ip şəklində olan bir materialdır. Katanka, müxtəlif təyinatlı metal məhsulların istehsalında, məişət texnikasında, sənayedə və bəzən dekorativ tətbiqlərdə istifadə olunur. Bu materialın xüsusiyyətləri arasında yüksək möhkəmlik, elastiklik və uzunömürlülük mövcuddur. Katanka, metal mesh, tel qoruyucular və digər struktural elementlərin hazırlanmasında geniş istifadə olunur. Onun emalı asan və müxtəlif formalarına uyğunlaşdırılması mümkün olduğundan, müxtəlif tətbiq sahələrində ideal seçimdir. Katanka, metal konstruksiyaların və digər məhsulların gücünü artırmaq üçün effektiv bir vasitədir.",
       },
@@ -401,7 +401,7 @@ export const contactInfo = {
   description: "Bizimlə əlaqə saxlayın.",
   image: "/images/contact.png",
   address: "Xocəsən yolu, Lökbatan dairəsinin yaxınlığı",
-  phone: "+994502116635",
+  phone: "+994509995999",
   email: "sdmetal@gmail.com",
   facebook: "https://www.facebook.com/example",
   instagram: "https://www.instagram.com/example",
