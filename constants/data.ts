@@ -535,5 +535,12 @@ export const sellingMetalPage = {
       phone: "+994502070440",
       email: "sdmetal@gmail.com",
     },
+    {
+      id: 7,
+      name: "Ruslan Şəfiyev",
+      image: "/images/selling.png",
+      phone: "+994509874888",
+      email: "sdmetal@gmail.com",
+    },
   ],
 };
