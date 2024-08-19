@@ -44,7 +44,7 @@ export default function SubcategoryPage() {
       <div className="w-full mx-auto py-8 flex items-center flex-col">
         <div className="w-full mx-auto flex justify-center bg-gray-50">
           <div className="container flex flex-col items-center justify-around py-8 px-4 md:px-0">
-            <h3 className="text-3xl text-center font-semibold">
+            <h3 className="text-xl md:text-3xl text-center font-semibold">
               {similarParagraphs.otherProducts}
             </h3>
             <SubcategoryList subcategories={otherSubcategories} />

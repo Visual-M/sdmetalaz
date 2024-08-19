@@ -29,16 +29,8 @@ export default function AltersubcategoryPage() {
     return <div>Altersubcategory not found</div>;
   }
 
-  const clickedAlterSubcategory = product.alterSubcategories.find((sub) =>
-    sub.url.includes(subcategoryStr)
-  );
-
-  if (!clickedAlterSubcategory) {
-    return <div>Clicked alter subcategory not found</div>;
-  }
-
   const otherAlterSubcategories = product.alterSubcategories.filter(
-    (sub) => sub.id !== clickedAlterSubcategory.id
+    (sub) => sub.url !== alterSubcategory.url
   );
 
   return (
@@ -52,12 +44,9 @@ export default function AltersubcategoryPage() {
             height={400}
           />
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl md:text-4xl font-semibold">
+            <h1 className="text-xl md:text-3xl font-semibold">
               {alterSubcategory.title}
             </h1>
-            <p className="text-xl md:text-2xl font-semibold">
-              {alterSubcategory.standart}
-            </p>
             <p className="text-l md:text-xl font-normal">
               {alterSubcategory.description}
             </p>
@@ -67,7 +56,7 @@ export default function AltersubcategoryPage() {
 
       <div className="w-full mx-auto flex bg-gray-50 justify-center my-12 py-8">
         <div className="container flex flex-col py-8 px-4 md:px-0 text-start">
-          <div className="text-3xl font-semibold text-center flex justify-start md:px-8">
+          <div className="text-xl md:text-3xl font-semibold text-center flex justify-start md:px-8">
             <h3>{similarParagraphs.otherProductsSameCategory}</h3>
           </div>
 
@@ -76,7 +65,7 @@ export default function AltersubcategoryPage() {
               <div key={alterSubcategory.id} className="p-4 rounded-lg">
                 <Link
                   href={alterSubcategory.url}
-                  className="flex flex-col items-center justify-center text-xl text-center"
+                  className="flex flex-col items-center justify-center text-center"
                 >
                   <Image
                     src={alterSubcategory.image}
@@ -85,7 +74,9 @@ export default function AltersubcategoryPage() {
                     height={100}
                     className="transition-transform transform hover:scale-110"
                   />
-                  {alterSubcategory.title}
+                  <span className="text-m md:text-xl">
+                    {alterSubcategory.title}
+                  </span>
                 </Link>
               </div>
             ))}

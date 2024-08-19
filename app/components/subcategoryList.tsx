@@ -26,7 +26,7 @@ const SubcategoryList: React.FC<SubcategoryListProps> = ({ subcategories }) => {
               alt={subcategory.title}
               width={100}
               height={100}
-              className="transition-transform transform hover:scale-110"
+              className="object-contain"
             />
             {subcategory.title}
           </Link>

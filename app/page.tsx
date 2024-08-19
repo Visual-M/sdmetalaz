@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import ContactUsButton from "./components/contactUsButton";
 import OurLocation from "./components/ourLocation";
+import ProductCard from "./components/ProductCard";
 
 export default function Home() {
   return (
@@ -23,8 +24,7 @@ export default function Home() {
           alignItems: "center",
         }}
         className="w-[100%] h-[50vh]"
-      >
-      </div>
+      ></div>
 
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 ">
@@ -77,66 +77,18 @@ export default function Home() {
 
       <div className="w-full mx-auto bg-gray-100 py-8">
         <div className="container mx-auto py-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
-            {homePage.products}
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-[4rem]">
+            {homePage.productsHeader}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="relative flex flex-col items-center">
-              <Image
-                src={homePage.firstProductImage}
-                alt={homePage.firstProduct}
-                width={150}
-                height={150}
-                className="w-full h-48 object-cover mb-4 bg-no-repeat brightness-75"
+            {homePage.products.map((product) => (
+              <ProductCard
+                key={product.id}
+                id={product.id}
+                image={product.image}
+                title={product.title}
               />
-              <div className="absolute inset-0 flex justify-start items-start  bg-opacity-0 p-4">
-                <h5 className="text-xl font-semibold text-center backdrop-blur bg-white rounded-lg p-4">
-                  {homePage.firstProduct}
-                </h5>
-              </div>
-            </div>
-            <div className="relative flex flex-col items-center">
-              <Image
-                src={homePage.secondProductImage}
-                alt={homePage.secondProduct}
-                width={150}
-                height={150}
-                className="w-full h-48 object-cover mb-4 bg-no-repeat brightness-75"
-              />
-              <div className="absolute inset-0 flex justify-start items-start  bg-opacity-0 p-4">
-                <h5 className="text-xl font-semibold text-center backdrop-blur bg-white rounded-lg p-4">
-                  {homePage.secondProduct}
-                </h5>
-              </div>
-            </div>
-            <div className="relative flex flex-col items-center">
-              <Image
-                src={homePage.thirdProductImage}
-                alt={homePage.thirdProduct}
-                width={150}
-                height={150}
-                className="w-full h-48 object-cover mb-4 bg-no-repeat brightness-75"
-              />
-              <div className="absolute inset-0 flex justify-start items-start  bg-opacity-0 p-4 ">
-                <h5 className="text-xl font-semibold text-center backdrop-blur bg-white rounded-lg p-4">
-                  {homePage.thirdProduct}
-                </h5>
-              </div>
-            </div>
-            <div className="relative flex flex-col items-center">
-              <Image
-                src={homePage.fourthProductImage}
-                alt={homePage.fourthProduct}
-                width={150}
-                height={150}
-                className="w-full h-48 object-cover mb-4 bg-no-repeat brightness-75"
-              />
-              <div className="absolute inset-0 flex justify-start items-start  bg-opacity-0 p-4">
-                <h5 className="text-xl font-semibold text-center backdrop-blur bg-white rounded-lg p-4">
-                  {homePage.fourthProduct}
-                </h5>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
