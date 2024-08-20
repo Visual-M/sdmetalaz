@@ -44,12 +44,6 @@ export default function SellingPage() {
                     <FaWhatsapp className="text-green-500 text-[20px] md:text-[28px]" />
                   </a>
                 </div>
-                <a
-                  href={`mailto:${coWorker.email}`}
-                  className="text-sm md:text-xl"
-                >
-                  {coWorker.email}
-                </a>
               </div>
             ))}
           </div>
