@@ -68,7 +68,7 @@ export const steelProducts = [
         title: "Künclük",
         standart: "ГОСТ 10704-91",
         url: "/steel/polad_mehsullari/kuncluk",
-        image: "/images/kuncluk.jpg",
+        image: "/images/kuncluk.png",
         description:
           "Künclük, inşaat və mühəndislik sahələrində geniş istifadə olunan L şəkilli polad profil növüdür. Adətən L və ya 90 dərəcə bucaq formasında olur və müxtəlif ölçü və qalınlıqlarda istehsal edilir. Künclüklər, əsasən metal konstruksiyalarda, çərçivələrdə və dəstək strukturlarında istifadə olunur. Onlar tikililərin bucaqlarında güclü dayaq təmin edir və yüklərin bərabər şəkildə paylanmasına kömək edir. Künclük profilləri həmçinin maşınqayırma və digər sənaye tətbiqlərində də geniş yayılıb. Onların yüksək möhkəmliyi, uzunömürlülüyü və asan montajı bu profilləri çox yönlü və effektiv tikinti materialına çevirir.",
       },
@@ -77,7 +77,7 @@ export const steelProducts = [
         title: "Polad şveller",
         standart: "ГОСТ 10704-91",
         url: "/steel/polad_mehsullari/polad_sveller",
-        image: "/images/polad_sveller.jpg",
+        image: "/images/polad_sveller.png",
         description:
           "Polad şveller, C və ya U formasında kəsikə malik olan polad profil növüdür. Onlar inşaat və sənaye layihələrində geniş istifadə olunur, xüsusən də struktural çərçivələrdə, dəstəkləyici elementlərdə və maşınqayırma sahəsində. Şvellerlərin forması onlara yüksək möhkəmlik və dayanıqlıq verir, bu da onları ağır yüklərə və mexaniki təsirlərə qarşı ideal edir. Polad şvellerlər müxtəlif ölçü və divar qalınlıqlarında istehsal edilir, bu da onları müxtəlif tikinti və mühəndislik layihələrində uyğun seçim edir. Onların davamlılığı və funksionallığı, polad şvellerləri etibarlı və çox yönlü tikinti materialı edir.",
       },
