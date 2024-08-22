@@ -16,9 +16,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ image, title }) => {
         height={300}
         className="object-contain mb-4 bg-no-repeat"
       />
-      <h5 className="text-xl font-medium text-left text-black rounded-lg p-2">
+      <h2 className="text-xl font-medium text-left text-black rounded-lg p-2">
         {title}
-      </h5>
+      </h2>
     </div>
   );
 };

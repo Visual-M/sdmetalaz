@@ -12,14 +12,7 @@ export const getServerSideProps = async ({ res }) => {
     const staticPaths = fs
         .readdirSync("pages")
         .filter((staticPage) => {
-            return ![
-                "api",
-                "product",
-                "_app.js",
-                "_document.js",
-                "404.js",
-                "sitemap.xml.js",
-            ].includes(staticPage);
+            return staticPage !== "sitemap.xml.js";
         })
         .map((staticPagePath) => {
             return `${BASE_URL}/${staticPagePath.replace(".js", "")}`;
@@ -30,7 +23,15 @@ export const getServerSideProps = async ({ res }) => {
         ...product.alterSubcategories.map((sub) => `${BASE_URL}${sub.url}`),
     ]);
 
-    const allPaths = [...staticPaths, ...dynamicPaths];
+    const allPaths = [
+        ...staticPaths,
+        `${BASE_URL}/about`,
+        `${BASE_URL}/certificates`,
+        `${BASE_URL}/contact`,
+        `${BASE_URL}/history`,
+        `${BASE_URL}/selling`,
+        ...dynamicPaths,
+    ];
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
