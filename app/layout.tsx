@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SDMetal",
-  description: "Hər növ dəmir məhsulları",
+  title: "SD Metal",
+  description: "Rusiya istehsalı metalların topdan və , pərakəndə satışı",
 };
 
 export default function RootLayout({
