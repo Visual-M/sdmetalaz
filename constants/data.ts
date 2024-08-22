@@ -404,7 +404,7 @@ export const contactInfo = {
   phone: "+994509995999",
   email: "sdmetal.az@gmail.com",
   facebook: "https://www.facebook.com/example",
-  instagram: "https://www.instagram.com/example",
+  instagram: "https://www.instagram.com/sdmetal.az?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   twitter: "https://www.twitter.com/example",
   location: "Ünvan",
   telephone: "Telefon",
