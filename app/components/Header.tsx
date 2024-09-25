@@ -22,7 +22,7 @@ export default function Header() {
   }, []);
   return (
     <header className="w-full mx-auto py-4 flex justify-center">
-      <div className="container flex flex-row justify-between px-4">
+      <div className="container flex flex-row justify-between items-center px-4">
         <Link href="/" className="logo">
           <Image
             src="/images/logo.svg"

@@ -16,7 +16,7 @@ export default function About() {
       {/* //contact info */}
       <div className="w-full flex justify-center items-center py-8 my-8">
         <div className="container">
-          <div className="flex flex-col md:flex-row justify-around text-left px-4 md:px-8">
+          <div className="flex flex-col md:flex-row justify-between text-left px-4 md:px-8">
             <div className="flex flex-col gap-4">
               <div>
                 <h2 className="text-xl font-semibold">
@@ -46,7 +46,9 @@ export default function About() {
               </div>
               <div>
                 <h2 className="text-xl font-semibold">{contactInfo.mail}:</h2>
-                <p className="text-xl">{contactInfo.email}</p>
+                <a href={`mailto:${contactInfo.email}`} className="text-xl">
+                  {contactInfo.email}
+                </a>
               </div>
             </div>
             <div className="flex flex-col gap-4">

@@ -9,24 +9,23 @@ export default function About() {
 
       <div className="container py-8 px-4 md:p-8 mt-8">
         <div className="flex flex-col gap-12 justify-between">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row justify-between items-start">
             <div>
-              <h2 className="text-2xl font-semibold mb-8">{aboutPage.header}</h2>
               <p className="text-lg max-w-[45rem]">{aboutPage.firstDescription}</p>
             </div>
             <Image
               src={aboutPage.firstImage}
               alt={aboutPage.title}
-              width={450}
-              height={450}
+              width={700}
+              height={1000}
             ></Image>
           </div>
-          <div className="flex flex-col-reverse md:flex-row justify-around items-center">
+          <div className="flex flex-col-reverse md:flex-row justify-around items-start">
             <Image
               src={aboutPage.secondImage}
               alt={aboutPage.title}
-              width={450}
-              height={450}
+              width={700}
+              height={1000}
             ></Image>
             <div>
               <p className="text-lg max-w-[45rem]">{aboutPage.secondDescription}</p>

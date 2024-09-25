@@ -128,7 +128,7 @@ export const alcipanProducts = [
     title: "Gipskarton lövhələr",
     url: "/alcipan/gipskarton_lovheler",
     image: "/images/alcipan-main.png",
-    description: "Gipskarton lövhələr.",
+    description: "Yüngül və çoxfunksiyalı tikinti materialı",
     alterSubcategories: [
       {
         id: 6021,
@@ -159,187 +159,187 @@ export const alcipanProducts = [
   {
     id: 505,
     title: "Metal Profillər",
-    url: "/alcipan/polyethylene_pipes",
-    image: "/images/welded_steel_pipes.png",
-    description: "Metal Profillər.",
+    url: "/alcipan/metal_profiller",
+    image: "/images/metal_profiller_hero.png",
+    description: "Dayanıqlı və çoxistifadəli konstruksiya materialı",
     alterSubcategories: [
       {
         id: 6025,
-        title: "Dekorativ künc KNAUF-metal profili 22/22",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
+        title: "Knauf Schnellbauschraube TN 3,5x25 mm vintlər",
+        url: "/alcipan/metal_profiller/35mmx25mm_vintler",
+        image: "/images/3,5x25_vintler.png",
         description:
-          "Dekorativ künc KNAUF–metal profili 22/22 ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır. Ağ rəngli dekorativ örtüyə malikdir.",
+          "Knauf Schnellbauschraube TN vintləri, xüsusilə incə dişli konstruksiya üçün nəzərdə tutulmuş yüksək keyfiyyətli montaj vintləridir. Bu vintlər 3,5x25 mm ölçüdə olub, gipskarton və metal profil sistemlərinin bərkidilməsi üçün istifadə edilir. Onların xüsusi forması materialların effektiv və möhkəm bağlanmasını təmin edir. Knauf Schnellbauschraube TN vintləri sürətli və dəqiq montaj imkanı təqdim edir, uzunmüddətli dayanıqlıq və etibarlılıq verir. Bu vintlər həm peşəkar inşaat işlərində, həm də ev təmir layihələrində istifadə üçün ideal seçimdir.",
       },
       {
         id: 6026,
-        title: "Doldurucu KNAUF-metal profili DP 16/11",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
+        title: "Özüyapışan Gipsokarton Tikiş Lenti",
+        url: "/alcipan/metal_profiller/ozuyapisan_gipsokarton_tikis_lenti",
+        image: "/images/ozuyapisan_gipsokarton_tikis_lenti.png",
         description:
           "Doldurucu KNAUF–metal profili DP 16/11 ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır.",
       },
       {
         id: 6027,
-        title: "Reykavari KNAUF-metal profili RP 84/1 2 tip B",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
+        title: "Knauf Schnellbauschraube TN 3,5x11 mm vintlər",
+        url: "/alcipan/metal_profiller/35mmx11mm_vintler",
+        image: "/images/3,5x11_vintler.png",
         description:
-          "Reykavari B tipli metal KNAUF–profil TP 84/12 ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır.",
+          "Knauf Schnellbauschraube TN 3,5x11 mm vintləri, incə dişləri və qısa uzunluğu ilə xüsusilə gipskarton lövhələrinin nazik metal profillərə bərkidilməsi üçün nəzərdə tutulmuşdur. Bu vintlər, yüksək keyfiyyətli və sürətli montaj üçün idealdır, materialların dəqiq və möhkəm bağlanmasını təmin edir. İstifadə zamanı vintlər lövhənin səthinə zərər vermədən dəqiq bir şəkildə yerləşdirilir və dayanıqlı əlaqələr yaradır. Peşəkar inşaatçılar və təmir işləri ilə məşğul olanlar üçün bu vintlər səmərəlilik və etibarlılıq təklif edir.",
       },
       {
         id: 6028,
-        title: "Reykavari KNAUF-metal profili RP 84/1 2 tip A",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
+        title: "Tavan Knauf metal profili",
+        url: "/alcipan/metal_profiller/tavan_knauf_metal_profili",
+        image: "/images/tavan_knauf_metal_profili.png",
         description:
-          "Reykavari A tipli metal KNAUF–profil TP 84/12 ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır.",
+          "Knauf tavan metal profili, asma tavan sistemlərində istifadə olunan yüksək keyfiyyətli bir tikinti materialıdır. Bu profillər yüngül çəkisi və möhkəm strukturu ilə tanınır, bu da onların montajını asanlaşdırır və uzunmüddətli dözümlülük təmin edir. Knauf profilləri galvanizli poladdan hazırlanır, bu da onları paslanmaya qarşı dayanıqlı edir. Tavan konstruksiyaları üçün ideal olan bu profillər, həm ev, həm də kommersiya obyektlərində istifadə olunur. Onlar düzgün montaj olunduqda hamar, estetik və sabit bir tavan səthi yaradır. Müxtəlif ölçü və formalarda mövcuddur.",
       },
       {
         id: 6029,
-        title: "Dekorativ künc KNAUF-metal profili",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
+        title: "Knauf metal birləşdirici",
+        url: "/alcipan/metal_profiller/knauf_metal_birlesdirici",
+        image: "/images/knauf_metal_birlesdirici.png",
         description:
-          "Dekorativ künc metal profili ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır. Ağ rəngli dekorativ örtüyə malikdir.",
+          "Bu elementlər asma tavanın sabitliyini təmin etmək və tavan profillərini düzgün hündürlükdə saxlamaq üçün nəzərdə tutulub. Yüngül çəkiləri və güclü dayanıqlığı ilə montaj zamanı rahatlıq yaradırlar. Delikli dizaynları əlavə bağlama imkanı və tənzimlənə bilən montaj asanlığı təmin edir. Knauf metal profilləri ilə birlikdə istifadə edilərək, təhlükəsiz və davamlı asma tavan sistemləri yaratmağa kömək edir.",
       },
       {
         id: 6030,
-        title: "Uzununa metal KNAUF T-profili 24/38",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
+        title: "Dəlikli və formalı metal profillər",
+        url: "/alcipan/metal_profiller/delikli-ve-formali-metal-profiller",
+        image: "/images/delikli-ve-formali-metal-profiller.png",
         description:
-          "Uzununa metal KNAUF T-profili 24/38 ТŞ 1121–004–04001508–2003-ə uyğun olaraq alüminium arintisindən alınmış uzunölçülü element olaraq hazırlanır. Görünən hissəsi ağ rəngli dekorativ örtüyə malikdir.",
+          "Dəlikli və formalı metal profillər müxtəlif tikinti və sənaye layihələrində geniş istifadə olunan çoxfunksiyalı materiallardır. Bu profillər, xüsusi formalı kəsiklər və dəliklərə malik olub, montaj işlərini sürətləndirmək və möhkəmliyi artırmaq üçün nəzərdə tutulmuşdur. Onlar həmçinin əlavə aksesuar və ya bağlayıcıların asanlıqla quraşdırılmasına imkan verir. Adətən galvanizli və ya paslanmayan poladdan hazırlanan bu profillər, həm daxili, həm də xarici istifadə üçün uyğundur. Ventilyasiya sistemlərində, elektrik naqillərinin quraşdırılmasında və digər konstruksiya işlərində geniş tətbiq sahəsi tapır.",
       },
       {
         id: 6031,
-        title: "Eninə metal Knauf T-profili 24/38",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
+        title: "İstiqamətləndirici metal KNAUF–profil",
+        url: "/alcipan/metal_profiller/istiqametlendirici-metal-knauf-profil",
+        image: "/images/istiqametlendirici-metal-knauf-profil.png",
         description:
-          "Eninə metal Knauf T–profili 24/38 ТŞ 1121–004–04001508–2003-ə uyğun olaraq alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır. Görünən hissəsi ağ rəngli dekorativ örtüyə malikdir.",
+          "İstiqamətləndirici metal KNAUF-profil, asma tavan və arakəsmə divar sistemlərində istifadə edilən mühüm komponentdir. Bu profillər, divar və tavan strukturlarının dayanıqlığını təmin etmək və düzgün forma vermək üçün nəzərdə tutulmuşdur. KNAUF-profillər yüksək keyfiyyətli galvanizli poladdan hazırlanır, bu da onları paslanmaya qarşı davamlı və uzunömürlü edir. İstiqamətləndirici profillər, montaj zamanı düzgün xəttlərin saxlanmasına və digər profillərin bərabər şəkildə quraşdırılmasına kömək edir. Onlar həm yaşayış, həm də sənaye obyektlərində geniş istifadə olunur və etibarlı konstruksiya yaradır.",
       },
-      {
-        id: 6032,
-        title: "Əsas metal KNAUF T-profili 24/38",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Əsas metal Knauf T–profili 24/38 ТŞ 1121–004–04001508–2003-ə uyğun olaraq alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır. Görünən hissəsi ağ rəngli dekorativ örtüyə malikdir.",
-      },
-      {
-        id: 6033,
-        title: "Mayak KNAUF-metal profili (MP)",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Mayak metal KNAUF–profili (MP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6034,
-        title: "Xüsusi KNAUF-metal profili TP 35/30",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Xüsusi KNAUF-metal profili TP 35/30 ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6035,
-        title: "Tağşəkilli KNAUF-metal profili (TP)",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Tağşəkilli metal KNAUF–profil (TP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6036,
-        title: "Künc suvaq KNAUF metal profili (KP)",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Künc suvaq KNAUF metal profili (KP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6037,
-        title: "Künc qoruyucu KNAUF-metal profili (KP)",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Müdafiəedici künc metal KNAUF–profil (KP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6038,
-        title: "İstiqamətləndirici KNAUF- tavan metal profili (TU)",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "İstiqamətləndirici tavan metal KNAUF–profil (TU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6039,
-        title: "Tavan KNAUF-metal profili (TC)",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Tavan metal KNAUF–profil (TC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6040,
-        title: "Dayaq metal KNAUF-profil (DC)",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Dayaq metal KNAUF–profil (DC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6041,
-        title: "İstiqamətləndirici KNAUF-metal profili (DU)",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "İstiqamətləndirici metal KNAUF–profil (DU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6042,
-        title: "Künc qoruyucu KNAUF-metal profili (KP)",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Müdafiəedici künc metal KNAUF–profil (KP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6043,
-        title: "İstiqamətləndirici KNAUF- tavan metal profili (TU)",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "İstiqamətləndirici tavan metal KNAUF–profil (TU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6044,
-        title: "Tavan KNAUF-metal profili (TC)",
-        url: "/alcipan/polyethylene_pipes/alcipan",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Tavan metal KNAUF–profil (TC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6045,
-        title: "Dayaq metal KNAUF-profil (DC)",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "Dayaq metal KNAUF–profil (DC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
-      {
-        id: 6046,
-        title:
-          "İstiqamətləndirici metal KNAUF–profil (DU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-        url: "/alcipan/polyethylene_pipes/design",
-        image: "/images/welded_steel_pipes.png",
-        description:
-          "İstiqamətləndirici metal KNAUF–profil (DU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
-      },
+      // {
+      //   id: 6032,
+      //   title: "Əsas metal KNAUF T-profili 24/38",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Əsas metal Knauf T–profili 24/38 ТŞ 1121–004–04001508–2003-ə uyğun olaraq alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır. Görünən hissəsi ağ rəngli dekorativ örtüyə malikdir.",
+      // },
+      // {
+      //   id: 6033,
+      //   title: "Mayak KNAUF-metal profili (MP)",
+      //   url: "/alcipan/metal_profiller/alcipan",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Mayak metal KNAUF–profili (MP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6034,
+      //   title: "Xüsusi KNAUF-metal profili TP 35/30",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Xüsusi KNAUF-metal profili TP 35/30 ТŞ 1121–004–04001508–2003-ə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik lent şəklində alüminium ərintisindən alınmış uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6035,
+      //   title: "Tağşəkilli KNAUF-metal profili (TP)",
+      //   url: "/alcipan/metal_profiller/alcipan",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Tağşəkilli metal KNAUF–profil (TP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6036,
+      //   title: "Künc suvaq KNAUF metal profili (KP)",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Künc suvaq KNAUF metal profili (KP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6037,
+      //   title: "Künc qoruyucu KNAUF-metal profili (KP)",
+      //   url: "/alcipan/metal_profiller/alcipan",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Müdafiəedici künc metal KNAUF–profil (KP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6038,
+      //   title: "İstiqamətləndirici KNAUF- tavan metal profili (TU)",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "İstiqamətləndirici tavan metal KNAUF–profil (TU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6039,
+      //   title: "Tavan KNAUF-metal profili (TC)",
+      //   url: "/alcipan/metal_profiller/alcipan",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Tavan metal KNAUF–profil (TC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6040,
+      //   title: "Dayaq metal KNAUF-profil (DC)",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Dayaq metal KNAUF–profil (DC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6041,
+      //   title: "İstiqamətləndirici KNAUF-metal profili (DU)",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "İstiqamətləndirici metal KNAUF–profil (DU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6042,
+      //   title: "Künc qoruyucu KNAUF-metal profili (KP)",
+      //   url: "/alcipan/metal_profiller/alcipan",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Müdafiəedici künc metal KNAUF–profil (KP) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6043,
+      //   title: "İstiqamətləndirici KNAUF- tavan metal profili (TU)",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "İstiqamətləndirici tavan metal KNAUF–profil (TU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6044,
+      //   title: "Tavan KNAUF-metal profili (TC)",
+      //   url: "/alcipan/metal_profiller/alcipan",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Tavan metal KNAUF–profil (TC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6045,
+      //   title: "Dayaq metal KNAUF-profil (DC)",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "Dayaq metal KNAUF–profil (DC) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
+      // {
+      //   id: 6046,
+      //   title:
+      //     "İstiqamətləndirici metal KNAUF–profil (DU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      //   url: "/alcipan/metal_profiller/design",
+      //   image: "/images/welded_steel_pipes.png",
+      //   description:
+      //     "İstiqamətləndirici metal KNAUF–profil (DU) TŞ 1121-004-04001508-2003 texniki şərtinə uyğun olaraq soyuq yayma üsülü ilə müasir profiləymə dəzgahında yerinə yetirilən nazik polad lent şəklində uzunölçülü element olaraq hazırlanır.",
+      // },
     ],
   },
 ];
@@ -357,14 +357,14 @@ export const navigation = {
         title: "Haqqımızda",
         url: "/about",
       },
-      {
-        title: "Sertifikatlarimiz",
-        url: "/certificates",
-      },
-      {
-        title: "Tariximiz",
-        url: "/history",
-      },
+      // {
+      //   title: "Sertifikatlarımız",
+      //   url: "/certificates",
+      // },
+      // {
+      //   title: "Tariximiz",
+      //   url: "/history",
+      // },
     ],
   },
   products: {
@@ -404,7 +404,8 @@ export const contactInfo = {
   phone: "+994509995999",
   email: "sdmetal.az@gmail.com",
   facebook: "https://www.facebook.com/example",
-  instagram: "https://www.instagram.com/sdmetal.az?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  instagram:
+    "https://www.instagram.com/sdmetal.az?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   twitter: "https://www.twitter.com/example",
   location: "Ünvan",
   telephone: "Telefon",
@@ -430,13 +431,13 @@ export const homePage = {
     "Şirkətimiz əsasən dəmir və polad məhsullarının satışı ilə məşğuldur. Bununla yanaşı, plastik məhsullarının satışı da aparırıq",
   selling: "Satış",
   sellingDesc:
-    "Şirkətimiz əsasən dəmir və polad məhsullarının satışı ilə məşğuldur. Bununla yanaşı, plastik məhsullarının satışı da aparırıq",
+    "Dəmir, polad və plastik məhsulların geniş çeşidini müştərilərimizə təklif edirik. Məqsədimiz yüksək keyfiyyətli materiallarla ehtiyaclarınıza ən uyğun həlləri təmin etməkdir.",
   delivery: "Çatdırılma",
   deliveryDesc:
-    "Şirkətimiz əsasən dəmir və polad məhsullarının satışı ilə məşğuldur. Bununla yanaşı, plastik məhsullarının satışı da aparırıq",
+    "Operativ və etibarlı çatdırılma xidmətimizlə sifarişlərinizi vaxtında və təhlükəsiz şəkildə təhvil alacaqsınız. Çatdırılma zamanı sürət və dəqiqlik ön planda tutulur.",
   quality: "Keyfiyyət",
   qualityDesc:
-    "Şirkətimiz əsasən dəmir və polad məhsullarının satışı ilə məşğuldur. Bununla yanaşı, plastik məhsullarının satışı da aparırıq",
+    "Keyfiyyət bizim əsas prioritetimizdir. Təklif etdiyimiz bütün dəmir, polad və plastik məhsulları beynəlxalq standartlara cavab verir və yüksək dayanıqlılığı ilə fərqlənir.",
   productsHeader: "Məhsullarımız",
   products: [
     {
@@ -479,9 +480,9 @@ export const aboutPage = {
   image: "/images/about.png",
   header: "Şirkət haqqında",
   firstDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum, risus vel tincidunt ultricies, purus turpis ultricies mauris, nec vehicula erat nunc sed purus. Nullam sit amet vestibulum lorem. Nullam auctor, turpis nec ultricies ultricies, purus mi lobortis nunc, eget ultricies risus nisl nec nunc. Nullam sit amet vestibulum lorem. Nullam auctor, turpis nec ultricies ultricies, purus mi lobortis nunc, eget ultricies risus nisl nec nunc. Nullam sit amet vestibulum lorem. Nullam auctor, turpis nec ultricies ultricies, purus mi lobortis nunc, eget ultricies risus nisl nec nunc.",
+    "SD Metal şirkəti 2018-ci ildən etibarən Azərbaycanın metallurgiya və tikinti sektorunda fəaliyyət göstərən, geniş çeşidli məhsul portfeli ilə tanınan bir şirkətdir. Biz, əsasən, dəmir və polad məhsullarının idxalı və satışı ilə məşğul oluruq. Şirkətimizin əsas təchizat mənbəyi Rusiya Federasiyasıdır və bu ölkədən idxal etdiyimiz bütün dəmir və polad məhsulları beynəlxalq standartlara uyğun sertifikatlara malikdir. Yüksək keyfiyyətli metallurgiya məhsulları təklif edərək, müştərilərimizin ehtiyaclarını qarşılayır və onların məmnuniyyətini qazanırıq. SD Metal olaraq, geniş məhsul çeşidi ilə fərqlənirik. Şirkətimizin əsas məhsul xətti dəmir və polad məmulatlarıdır. Bu məhsullar, inşaat və sənaye sahələrində geniş istifadə olunur və yüksək keyfiyyəti ilə seçilir. Rusiyadan idxal etdiyimiz dəmir və polad məhsulları bütün sertifikatlara cavab verdiyi üçün həm yerli, həm də beynəlxalq tikinti layihələri üçün etibarlı bir seçimdir. Bundan başqa, biz həm də Gilan firmasının alcipan (gips lövhə) və digər tikinti materiallarının satışını həyata keçiririk. Gilan firmasının məhsulları da yüksək keyfiyyət standartlarına uyğun olaraq istehsal edilir və inşaat sektorunda geniş istifadə olunur. Bu məhsullar həm estetik, həm də funksional olaraq tikinti layihələrinin əsas tələblərini qarşılayır.     SD Metal olaraq, təklif etdiyimiz bütün məhsulların yüksək keyfiyyətli olmasına xüsusi diqqət yetiririk. Şirkətimizin təchizat zəncirində yalnız beynəlxalq standartlara cavab verən məhsullar yer alır. Rusiyadan idxal etdiyimiz polad və dəmir məhsulları bütün lazımi sertifikasiyalara malikdir və beynəlxalq keyfiyyət normalarına uyğundur. Bu, məhsullarımızı inşaat və sənaye sahələrində etibarlı və təhlükəsiz seçim edir. Müştərilərimizin tələblərinə uyğun məhsulları təqdim edərkən, keyfiyyətə nəzarət proseslərimizi hər zaman gücləndiririk.",
   secondDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum, risus vel tincidunt ultricies, purus turpis ultricies mauris, nec vehicula erat nunc sed purus. Nullam sit amet vestibulum lorem. Nullam auctor, turpis nec ultricies ultricies, purus mi lobortis nunc, eget ultricies risus nisl nec nunc. Nullam sit amet vestibulum lorem. Nullam auctor, turpis nec ultricies ultricies, purus mi lobortis nunc, eget ultricies risus nisl nec nunc. Nullam sit amet vestibulum lorem. Nullam auctor, turpis nec ultricies ultricies, purus mi lobortis nunc, eget ultricies risus nisl nec nunc.",
+    "Şirkətimizin əsas prioritetlərindən biri müştəri məmnuniyyətidir. Müştərilərimizin ehtiyaclarını dinləyir, onların tələblərinə uyğun məhsul və xidmətlər təklif edirik. Yüksək keyfiyyətli məhsullarımız və etibarlı çatdırılma xidmətlərimiz sayəsində müştərilərimizin güvənini qazanmışıq. Bununla yanaşı, hər bir müştəriyə fərdi yanaşma tətbiq edərək, onların spesifik tələblərini yerinə yetiririk. SD Metal olaraq, müştəri məmnuniyyətini maksimum səviyyədə saxlamaq üçün daimi olaraq öz xidmətlərimizi təkmilləşdiririk.Bizim komanda peşəkar mütəxəssislərdən ibarətdir. Şirkətimizin işçi heyəti metallurgiya və inşaat sahəsində geniş təcrübəyə malikdir. Komandamız müştərilərə ən yaxşı həll yollarını təklif edərək, onların tələblərinə cavab verir. Bizim üçün peşəkarlıq və işə olan məsuliyyət mühüm əhəmiyyət kəsb edir. Hər bir müştəri ilə iş prosesində keyfiyyətli xidmət göstərmək bizim başlıca məqsədimizdir. SD Metal olaraq, gələcəkdə də genişlənmək və daha da çox müştəri məmnuniyyəti qazanmaq məqsədindəyik. Yeni texnologiyalardan istifadə edərək, məhsul çeşidimizi daha da genişləndirməyi və bazarda lider mövqeyimizi gücləndirməyi planlaşdırırıq. Bununla yanaşı, beynəlxalq əməkdaşlıqları genişləndirərək, idxal etdiyimiz məhsulların keyfiyyətini daha da artırmaq üzərində çalışırıq. Şirkətimizin missiyası müştərilərə etibarlı və keyfiyyətli metallurgiya və tikinti məhsulları təklif etməkdir. Biz, hər zaman müştərilərimizin ehtiyaclarını ön planda tutaraq, onlara ən yaxşı həll yollarını təqdim etməyə çalışırıq. Təchizat zəncirindən tutmuş, məhsulların çatdırılmasına qədər hər bir mərhələdə keyfiyyəti qoruyaraq, müştəri məmnuniyyətini təmin edirik. SD Metal olaraq, etibarlılıq, keyfiyyət və müştəri yönümlü yanaşma prinsipləri üzərində qurulmuş fəaliyyətimizlə, Azərbaycan metallurgiya və inşaat sektorunda etibarlı bir tərəfdaş olmağa davam edəcəyik.",
   firstImage: "/images/about1.jpg",
   secondImage: "/images/about2.jpg",
 };
