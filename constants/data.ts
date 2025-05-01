@@ -513,18 +513,6 @@ export const sellingMetalPage = {
       phone: "+994554710003",
     },
     {
-      id: 4,
-      name: "Anar Dadaşov",
-      image: "/images/selling.png",
-      phone: "+994554818227",
-    },
-    {
-      id: 5,
-      name: "İxtiyar Mirzəyev",
-      image: "/images/selling.png",
-      phone: "+994779009000",
-    },
-    {
       id: 6,
       name: "Hikmət Nağızadə",
       image: "/images/selling.png",
